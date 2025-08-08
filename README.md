@@ -28,6 +28,18 @@ All variants support:
 | `mcdowellcv_3.cls` | Balanced (default) spacing | General-purpose student CVs                 |
 | `mcdowellcv_4.cls` | Looser spacing             | Fitting 2–3 experiences, projects on 1 page     |
 
+---
+
+## 🧾 Visual Previews
+
+Below are sample renderings of each class variant to help you pick the best fit:
+
+| `mcdowellcv_2.cls` (Tight Spacing) | `mcdowellcv_3.cls` (Balanced Spacing) | `mcdowellcv_4.cls` (Loose Spacing) |
+|------------------------------------|----------------------------------------|------------------------------------|
+| ![Tight spacing](samples/mcdowellcv_2.png) | ![Balanced spacing](samples/mcdowellcv_3.png) | ![Loose spacing](samples/mcdowellcv_4.png) |
+
+
+
 To use a version, set in your `.tex` file:
 
 ```latex
