@@ -1,0 +1,97 @@
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv_3}%% Replace with mcdowellcv_2 or mcdowellcv_4 as needed, helps in spacing between sections and subsections and overall fitting of data inside the page.
+\usepackage[hidelinks]{hyperref}
+% For mathematical symbols
+\usepackage{amsmath}
+\usepackage{fontawesome}
+\usepackage{hyperref}
+
+
+\begin{document}
+
+% Print the header
+%\makeheader
+\begin{center}
+    \LARGE{\textbf{Your Name}}
+\end{center}
+\vspace{-1.5mm}
+\begin{center}
+    \small{\href{https://github.com/yourprofile}{\faGithub \hspace{0.2mm} GitHub} | \href{https://www.linkedin.com/in/yourprofile/}{\faLinkedinSquare \hspace{0.2mm} LinkedIn} | \href{mailto:your.email@example.com}{\faSend \hspace{0.2mm} your.email@example.com} | \faPhone \hspace{0.2mm} Your Phone Number}
+\end{center}
+\vspace{-3mm}
+
+% Print the content
+\begin{cvsection}{Profile}
+    \begin{cvsubsection}{}{}{}
+        \begin{itemize}
+            \item A motivated [Your Profession/Field, e.g., Computer Science] professional with expertise in [e.g., software development, AI, cybersecurity]. Skilled in [key skills, e.g., full-stack development, data analysis], with a passion for [e.g., innovation, problem-solving].
+        \end{itemize}
+    \end{cvsubsection}
+\end{cvsection}
+
+% Prints the education section
+\begin{cvsection}{Education}
+    \begin{cvsubsection}{City, State}{University Name}{Start Date -- End Date}
+        \begin{itemize}
+            \item Degree, e.g., B.S. in Computer Science. GPA: [Your GPA]
+            \item Relevant Coursework: [List courses, e.g., Data Structures, Algorithms, Machine Learning]
+        \end{itemize}
+    \end{cvsubsection}
+    \begin{cvsubsection}{City, State}{High School Name}{Start Date -- End Date}
+        \begin{itemize}
+            \item High School Diploma, [e.g., Science Stream]: [Percentage or GPA]
+        \end{itemize}
+    \end{cvsubsection}
+\end{cvsection}
+
+% Prints the experience section
+\begin{cvsection}{Experience}
+    \begin{cvsubsection}{Job Title \underline{\href{https://yourlink.com}{Link}}}{Company Name}{Start Date -- End Date}
+        \begin{itemize}
+            \item Describe key responsibility or achievement, e.g., Developed a web application improving user engagement by X\% using specific technologies.
+            \item Another achievement, e.g., Optimized system performance, reducing latency by X\%.
+        \end{itemize}
+    \end{cvsubsection}
+    \begin{cvsubsection}{Job Title \underline{\href{https://yourlink.com}{Link}}}{Company Name}{Start Date -- End Date}
+        \begin{itemize}
+            \item Describe key responsibility or achievement, e.g., Built an automated tool that reduced processing time by X\%.
+            \item Another achievement, e.g., Collaborated with a team to deliver a project under tight deadlines.
+        \end{itemize}
+    \end{cvsubsection}
+\end{cvsection}
+
+% Prints the projects section
+\begin{cvsection}{Technical Experience}
+    \begin{cvsubsection}{Projects}{}{}
+        \begin{itemize}
+            \item \textbf{Project Name} \underline{\href{https://yourlink.com}{Link}} \textit{Technologies used: [e.g., Python, ReactJS, MongoDB]} \\
+            -- [Describe project purpose and impact, e.g., Developed a tool to streamline X process, improving efficiency by X\%.]
+            \item \textbf{Project Name} \underline{\href{https://yourlink.com}{Link}} \textit{Technologies used: [e.g., Java, MySQL, Docker]} \\
+            -- [Describe project purpose and impact, e.g., Built a scalable system for Y, handling Z users daily.]
+        \end{itemize}
+    \end{cvsubsection}
+\end{cvsection}
+
+% Prints the additional experience section
+\begin{cvsection}{Additional Experience}
+    \begin{cvsubsection}{Role}{Organization Name}{Start Date -- End Date}
+        \begin{itemize}
+            \item Describe responsibility or achievement, e.g., Led a team of X members to organize events, increasing participation by Y\%.
+            \item Another achievement, e.g., Managed technical projects integrating Z technology.
+        \end{itemize}
+    \end{cvsubsection}
+\end{cvsection}
+
+% Prints the skills section
+\begin{cvsection}{Languages and Technologies}
+    \begin{cvsubsection}{}{}{}
+        \begin{itemize}
+            \item \textbf{Programming Languages:} [e.g., Python, JavaScript, Java]
+            \item \textbf{Frameworks \& Libraries:} [e.g., ReactJS, NodeJS, TensorFlow]
+            \item \textbf{Databases:} [e.g., MySQL, MongoDB]
+            \item \textbf{Tools \& Platforms:} [e.g., Git, Docker, AWS]
+        \end{itemize}
+    \end{cvsubsection}
+\end{cvsection}
+
+\end{document}
