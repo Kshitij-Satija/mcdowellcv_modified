@@ -32,11 +32,9 @@ All variants support:
 
 ## 🧾 Visual Previews
 
-Below are sample renderings of each class variant to help you pick the best fit:
-
 | `mcdowellcv_2.cls` (Tight Spacing) | `mcdowellcv_3.cls` (Balanced Spacing) | `mcdowellcv_4.cls` (Loose Spacing) |
 |------------------------------------|----------------------------------------|------------------------------------|
-| ![Tight spacing](samples/mcdowellcv_2.png) | ![Balanced spacing](samples/mcdowellcv_3.png) | ![Loose spacing](samples/mcdowellcv_4.png) |
+| ![Tight spacing](samples/mcdowellcv_2_page.jpg) | ![Balanced spacing](samples/mcdowellcv_3_page.jpg) | ![Loose spacing](samples/mcdowellcv_4_page.jpg) |
 
 
 
